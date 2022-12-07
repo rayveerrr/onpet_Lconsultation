@@ -1,0 +1,103 @@
+@import url('../styles/styledefault.css');
+
+.main .product-container{
+    width: 70%;
+    height: 55vh;
+    margin: 130px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .product-container .product-image{
+    width: 40%;
+    height: 400px;
+}
+
+.main .product-container .product-image .product-image-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--kulayblack);
+}
+
+.main .product-container .product-image .product-image-container img{
+    width: 100%;
+    height: 100%;
+    border: 1px var(--kulayblack) solid;
+}
+
+/* Availability */
+
+.main .product-container .availability-container{
+    width: 50%;
+    height: 350px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--kulayblack);
+}
+
+.main .product-container .availability-container p, h1{
+    margin-left: 10%;
+    color: var(--white);
+}
+
+.main .product-container .availability-container input{
+    width: 70px;
+}
+
+.main .product-container .availability-container .button{
+    width: 80%;
+    margin: 2px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main .product-container .availability-container .button button{
+    padding: 15px;
+    width: 100%;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.main .product-container .availability-container .button button:hover{
+    color: var(--white);
+    background-color: var(--kulayblack);
+    border: 1px var(--white) solid;
+}
+
+.main .product-container .availability-container .payment-method{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .product-container .availability-container .payment-method h3{
+    color: var(--white);
+    margin-bottom: 5px;
+}
+
+.main .product-container .availability-container .payment-method .payment-container{
+    display: flex;
+
+}
+
+.main .product-container .availability-container .payment-method .payment-container .payment{
+    width: 60px;
+    height: 30px;
+    border: 1px var(--white) solid;
+}
+
+.main .product-container .availability-container .payment-method .payment-container .payment img{
+    width: 100%;
+    height: 100%;
+    background-color: var(--white);
+}
+
+.main .product-container .availability-container .payment-method .payment-container .payment:nth-child(2){
+    margin-left: 20px;
+}
