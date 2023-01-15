@@ -1,0 +1,29 @@
+@import url('../styles/styledefault.css');
+
+.header-section{
+    height: 100px;
+    background-color: var(--kulayblack);
+    color: var(--white);
+}
+
+.header-section .header-main{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    height: 100%;
+}
+
+.header-section .header-main .logo{
+    width: 140px;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: 1;
+}
+
+.header-section .header-main .logo img{
+    width: 140px;
+    height: 80px;
+}
